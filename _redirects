@@ -1,0 +1,5 @@
+# Netlify API proxy to Serverless functions
+/api/*  /.netlify/functions/api/:splat  200
+
+# Single Page App fallback
+/*      /index.html                     200
